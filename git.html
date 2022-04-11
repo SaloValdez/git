@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git - Procedimientos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+
+  <div class="tarjeta">
+    <div class="titulo">Actualizar repositorio  y guardar</div>
+    <div class="contenido">
+        <ul>
+          <li> verificar si ya esta asociado a nuestro repositorio 
+              <ul>
+                <li>
+                  <code>git status</code>
+                </li>
+              </ul>
+          </li>
+
+          <li> para agregar al repositorio y <b>hacer commit</b>
+            <ul>
+              <li><code>git add .</code> </li>
+              <li> <code>git commit -m "miprimer commit"</code></li>
+            </ul>
+          </li>
+
+          <li> Hacer push para subir a<b> GiT HUB</b>
+            <ul>
+              <li>
+                <code>git push -u origin main</code>
+              </li>
+            </ul>
+          </li>
+
+          <li>Para ver los commit / historial<b></b>
+            <ul>
+              <li>
+                <code>git log</code>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+    </div>
+  </div>
+<!-- otra tarjeta -->
+  <div class="tarjeta">
+    <div class="titulo">Crear repositorio local y subir a github</div>
+    <div class="comentario">
+      Para crear guardar el repositorio local a GIT HUB.  <i>primero se tiene que crear un <b>nuevo repositorio en GITHUB</b> desde el cual se tien que copiar el url del repositorio</i>
+    </div>
+    <div class="contenido">
+        <ul>
+          <li>habrir <i>Git Bash Here</i> desde <i>dentro </i> del derictorio. 
+              <ul>
+                <li>
+                  <!-- <code>Click derecho y</code> -->
+                  Click derecho y seleccionar Git Bash Here. (Se abrira laconsola GIT con la direccion del directorio).
+                </li>
+              </ul>
+          </li>
+
+          <li> Para <i><b>Inicializar</b> el repositorio</i> <b>OBLIGATORIO</b>
+            <ul>
+             
+                <li><code>git init</code> </li>
+              
+            </ul>
+          </li>
+
+          <li> Para verificar que es lo que se va subir (Los archivis que se mandara a repositoroio) --"este paso no es obligatorio" <b></b>
+            <ul>
+              <li>
+                <code>git status</code>
+              </li>
+            </ul>
+          </li>
+
+          <li>Para Agregar al repositorio <b>OBLIGATORIO</b>
+            <ul>
+              <li>
+                <code>git add .</code>
+              </li>
+            </ul>
+          </li>
+          
+          <li>Para hacer commit <b>OBLIGATORIO</b>
+            <ul>
+              <li>
+                <code>git commit -m "Mi primer commit"</code>
+              </li>
+            </ul>
+          </li>
+
+
+          <li>Luego le pedira el correo  <b>OBLIGATORIO</b>
+            <ul>
+              <li>
+                <code>git config --global user.email salovaldez.net@gmail.com</code>
+              </li>
+                <li>
+                  <code>git config --global user.name SaloValdez</code>
+                </li>
+                   <i> no se podia el antes por que primero se tenia que configirar el usuario</i> <br>
+                <li>
+                  <code>git config --global user.email salovaldez.net@gmail.com</code>
+                </li>
+              </li>
+            </ul>
+          </li>
+
+          <li>SUBIR A GITBUB-- 1. subir a rama principal  <b>OBLIGATORIO</b>
+            <ul>
+              <li>
+                <code>git config --global user.email salovaldez.net@gmail.com</code>
+              </li>
+            </ul>
+          </li>
+          <li>SUBIR A GITBUB-- 2. subir a repositorio GITHUB (Copiar y pegar--copiar el url del repositorio  github y pegar a la consola Git)   <b>OBLIGATORIO</b>
+            <ul>
+              <li>
+                <code>git remote add origin https://github.com/SaloValdez/Ejemplo_repo.git</code>
+              </li>
+            </ul>
+          </li>
+
+          <li>SUBIR A GITBUB-- 3. hacer push para mandar al repositorio GITHUB (Copiar y pegar--copiar el url del repositorio  github y pegar a la consola Git) <I> {Posiblemente pida logearse a travez de consola o navegador }</I>  <b>OBLIGATORIO</b>
+            <ul>
+              <li>
+                <code>git push -u origin main</code>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+    </div>
+  </div>
+
+ 
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

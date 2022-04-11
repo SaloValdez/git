@@ -1,0 +1,52 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans;
+}
+code{
+  font-family:Consolas;
+  color: rgb(91, 248, 18);
+  /* font-weight: bold; */
+  background-color: #000;
+  padding: 5px;
+  margin:20px;
+}
+.comentario{
+  background-color:rgb(208, 255, 255);
+  border:solid 1px rgb(22, 22, 22);
+  border-radius: 5px;
+  padding:8px;
+  margin: 5px;
+  border-style:dashed;
+  font-family:sans-serif;
+}
+
+ul,li{
+  margin:auto;
+  padding: auto;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.titulo{
+  background-color:rgb(183, 213, 218);
+  text-align:center;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+}
+.tarjeta{
+  background-color: azure;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+li{
+  margin:10px;
+}
